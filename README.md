@@ -10,7 +10,7 @@ and the Client Secret.
 For more details, read the Atlassian docs about OAuth 2.0 (3LO):
 https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/
 
-Note that as of March 2019, the OAuth 2.0 APIs at in "developer preview" mode
+Note that as of March 2019, the OAuth 2.0 APIs are in "developer preview" mode
 with Atlassian. See
 [ACJIRA-1588](https://ecosystem.atlassian.net/browse/ACJIRA-1588) for updates.
 
@@ -50,7 +50,7 @@ end
 
 This OmniAuth strategy makes API calls that require the `read:jira-user` scope,
 so that scope must be included by you in your OmniAuth configuration. The
-`offline_access` scope must be included if you wish to attain a refresh token.
+`offline_access` scope must be included if you wish to obtain a refresh token.
 You may wish to include additional scopes depending on how you've configured
 your app in the Atlassian UI.
 
